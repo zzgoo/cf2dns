@@ -18,7 +18,7 @@ from dns.aliyun import AliApi
 KEY = os.environ["KEY"]  #"o1zrmHAF"
 #CM:移动 CU:联通 CT:电信
 #修改需要更改的dnspod域名核子域名
-DOMAINS = json.loads(os.environ["DOMAINS"])  #{"yokds.com": {"@": ["CM","CU","CT"}
+DOMAINS = json.loads(os.environ["DOMAINS"])
 #腾讯云后台获取 https://console.cloud.tencent.com/cam/capi
 SECRETID = os.environ["SECRETID"]    #'AKIDV**********Hfo8CzfjgN'
 SECRETKEY = os.environ["SECRETKEY"]   #'ZrVs*************gqjOp1zVl'
